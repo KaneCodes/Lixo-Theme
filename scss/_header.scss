@@ -1,0 +1,27 @@
+// Header Styles
+header {
+  height: 350px;
+  background-image: linear-gradient(#43E6FF, #78C1FE);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status-bar {
+  margin-top: 5rem;
+  background-color: white;
+  width: 35%;
+  height: 50px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+#status-text {
+  padding: 14px 0 0 30px;
+  font-family: $primary-font;
+  color: $grey;
+  font-weight: bold;
+}
+
+.green {
+  color: $green;
+}
