@@ -1,1 +1,31 @@
-// Details Section // 
+// Details Section //
+
+#details {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  margin-top: 10rem;
+
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: $primary-font;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: $grey;
+  font-size: 3.5rem;
+}
+
+#description-text {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: $primary-font;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: $purple;
+}
