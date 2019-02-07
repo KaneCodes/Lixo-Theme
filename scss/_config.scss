@@ -1,4 +1,4 @@
-// Configuration Settings
+// Configuration Settings //
 
 // Font Stack
 $primary-font: 'Avenir', Helvetica, sans-serif;
@@ -6,3 +6,15 @@ $primary-font: 'Avenir', Helvetica, sans-serif;
 // Color Stack
 $grey: #545454;
 $green: #28FF00;
+
+// Color Classes
+.green {
+  color: $green;
+}
+
+.blue {
+  color: #4EA9F5;
+}
+
+// Shadows
+$box-shadow: 4px 3px 19px -6px rgba(0,0,0,0.68);

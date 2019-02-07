@@ -1,3 +1,9 @@
+.green {
+  color: #28FF00; }
+
+.blue {
+  color: #4EA9F5; }
+
 html {
   box-sizing: border-box;
   font-size: 16px; }
@@ -34,16 +40,14 @@ header {
   width: 35%;
   height: 50px;
   border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px; }
+  border-bottom-left-radius: 25px;
+  box-shadow: 4px 3px 19px -6px rgba(0, 0, 0, 0.68); }
 
 #status-text {
   padding: 14px 0 0 30px;
   font-family: "Avenir", Helvetica, sans-serif;
   color: #545454;
   font-weight: bold; }
-
-.green {
-  color: #28FF00; }
 
 .image-container {
   position: absolute;
@@ -52,8 +56,14 @@ header {
   justify-content: center; }
 
 .image {
+  display: flex;
+  justify-content: center;
   margin-top: 150px;
   background-color: white;
   border-radius: 200px;
   width: 350px;
   height: 350px; }
+
+#profile-image {
+  width: 90%;
+  margin: auto; }
