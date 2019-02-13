@@ -4,6 +4,9 @@
 .blue {
   color: #4EA9F5; }
 
+.red {
+  color: #FF1D61; }
+
 h1 {
   padding: 0;
   margin: 0;
@@ -215,3 +218,73 @@ header {
 
 .about-text {
   margin-top: 2rem; }
+
+#skills {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FAF8F7;
+  padding-bottom: 10rem; }
+
+.skills {
+  width: 80%;
+  margin: auto;
+  padding-top: 3rem; }
+
+.skills-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.skill-set {
+  width: 100%;
+  height: 22rem;
+  width: 13rem;
+  margin-top: 5rem;
+  background-color: white;
+  box-shadow: 4px 3px 19px -6px rgba(0, 0, 0, 0.68);
+  border-radius: 1px; }
+
+.designTitle-container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 10px 15px 10px 0; }
+
+.devTitle-container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 10px 5px 10px 0; }
+
+.card-title {
+  text-align: center;
+  font-family: "Avenir", Helvetica, sans-serif;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 1rem;
+  padding-bottom: 5px;
+  display: inline; }
+
+.list-title {
+  font-family: "Avenir", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding-left: 10px;
+  padding-bottom: 5px; }
+
+.skill-list {
+  font-family: "Avenir", Helvetica, sans-serif;
+  font-size: 0.9rem;
+  padding-left: 27px;
+  list-style: initial;
+  padding-bottom: 5px; }
+
+.skill-list, li {
+  margin: 3px 0 3px 0; }
+
+#dev-icon {
+  display: inline; }
