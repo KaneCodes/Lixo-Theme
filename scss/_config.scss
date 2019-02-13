@@ -1,4 +1,4 @@
-// Configuration Settings //
+// Theme Configuration Settings //
 
 // Font Stack
 $primary-font: 'Avenir', Helvetica, sans-serif;
@@ -18,11 +18,11 @@ $dull: #FAF8F7;
 }
 
 .blue {
-  color: #4EA9F5;
+  color: $blue;
 }
 
 .red {
-  color: #FF1D61;
+  color: $red;
 }
 
 // Shadows
