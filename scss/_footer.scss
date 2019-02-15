@@ -1,0 +1,34 @@
+// Footer Styles //
+footer {
+  width: 100%;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-container {
+  width: 15%;
+  min-width: 200px;
+  height: 100%;
+  padding-top: 150px;
+  margin: auto;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+#underline {
+  font-family: $primary-font;
+  color: $grey;
+  border-bottom: 2px solid $blue;
+  border-spacing: 15px;
+  border-spacing: 10px;
+  padding-bottom: 3px;
+}
+
+#copyright {
+  font-family: $primary-font;
+  color: $grey;
+  margin: 10px 0 10px 0;
+}
