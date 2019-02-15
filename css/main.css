@@ -83,6 +83,18 @@ img {
     text-align: center;
     margin-bottom: 1.5rem; } }
 
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  left: 35px;
+  top: 35px; }
+  .menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: white;
+    box-shadow: 4px 3px 19px -6px rgba(0, 0, 0, 0.68); }
+
 header {
   height: 350px;
   width: 100%;
