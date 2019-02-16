@@ -6,8 +6,7 @@ const menuLine = document.querySelectorAll('.btn-line');
 // Default Menu State
 let showMenu = false;
 
-
-
+// Event Listener for menu button
 menuBtn.addEventListener('click', function(){
   displayMenu();
   colorChange();
@@ -25,7 +24,6 @@ function displayMenu() {
     showMenu = false;
   }
 }
-
 
 // Change menu color
 function colorChange() {
