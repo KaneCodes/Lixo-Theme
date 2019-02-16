@@ -52,3 +52,25 @@ header {
   border-radius: 100%;
   box-shadow: $box-shadow;
 }
+
+// Social Links
+.social-links {
+  margin-top: 18.5rem;
+  padding-right: 15px;
+  z-index: 3;
+  position: absolute;
+
+
+  .social-list li {
+    display: inline;
+    margin: 0 5px 0 5px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    }
+
+  a {
+    color: white;
+    cursor: pointer;
+  }
+}

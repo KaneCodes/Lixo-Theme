@@ -93,7 +93,8 @@ img {
   position: absolute;
   z-index: 3;
   left: 35px;
-  top: 35px; }
+  top: 35px;
+  cursor: pointer; }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
@@ -171,6 +172,21 @@ header {
   margin: auto;
   border-radius: 100%;
   box-shadow: 4px 3px 19px -6px rgba(0, 0, 0, 0.68); }
+
+.social-links {
+  margin-top: 18.5rem;
+  padding-right: 15px;
+  z-index: 3;
+  position: absolute; }
+  .social-links .social-list li {
+    display: inline;
+    margin: 0 5px 0 5px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer; }
+  .social-links a {
+    color: white;
+    cursor: pointer; }
 
 #details {
   width: 80%;
