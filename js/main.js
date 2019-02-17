@@ -33,6 +33,5 @@ function colorChange() {
     } else {
       line.style.backgroundColor = "white";
     }
-
   });
 }
