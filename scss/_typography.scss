@@ -55,3 +55,9 @@ a {
 a:hover {
   font-weight: bold;
 }
+
+// Lists
+ul li {
+  font-family: $primary-font;
+  color: $grey;
+}
