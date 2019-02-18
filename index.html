@@ -7,13 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Links -->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <title>Lixo Theme</title>
 </head>
 <body>
   <header>
     <!-- Menu Button -->
-    <div class="menu-btn">
+    <div class="menu-btn animated fadeInLeft">
       <div class="btn-line"></div>
       <div class="btn-line"></div>
       <div class="btn-line"></div>
@@ -30,23 +31,22 @@
           <li><a href="#">CV</a></li>
         </ul>
       </div>
-
     </div>
 
     <!-- Profile Image -->
     <div class="image-container">
       <div class="image">
-        <img id="profile-image" src="img/kampot1.jpg" alt="profile image">
+        <img class="animated fadeIn" id="profile-image" src="img/kampot1.jpg" alt="profile image">
       </div>
     </div>
 
     <!-- Availability Status -->
-    <div class="status-bar">
+    <div class="status-bar animated fadeInRight">
       <p id="status-text">Employment Status: <span class="green">Available</span></p>
     </div>
 
     <!-- Social Links -->
-    <div class="social-links">
+    <div class="social-links animated fadeInRight">
       <ul class="social-list">
         <li><a href="#"><i class="fab fa-github social"></i></a></li>
         <li><a href="#"><i class="fab fa-linkedin social"></i></a></li>
@@ -60,10 +60,10 @@
 
     <!-- Details Section -->
     <section id="details">
-      <h1>Kane Codes<span class="blue">.</span></h1>
-      <p id="description-text">Full Stack Developer |  ui + ux Designer | Travel Bum</p>
+      <h1 class="animated fadeIn">Kane Codes<span class="blue">.</span></h1>
+      <p class="animated fadeIn" id="description-text">Full Stack Developer |  ui + ux Designer | Travel Bum</p>
       <div class="button-container">
-        <a href="mailto:kane.suckling@gmail.com"><button class="button">Contact Me</button></a>
+        <a href="mailto:kane.suckling@gmail.com"><button class="button animated fadeIn">Contact Me</button></a>
       </div>
     </section>
 
@@ -185,7 +185,7 @@
       <div class="skills-container">
 
         <!-- Design -->
-        <div class="skill-set">
+        <div class="skill-set animated flipInY">
           <div class="designTitle-container">
             <!-- Heading -->
             <i id="design-icon" class="fas fa-paint-brush"></i>
@@ -207,7 +207,7 @@
         </div>
 
         <!-- Development -->
-        <div class="skill-set">
+        <div class="skill-set animated flipInY">
           <!-- Heading -->
           <div class="devTitle-container">
             <i id="dev-icon"class="fas fa-code"></i>

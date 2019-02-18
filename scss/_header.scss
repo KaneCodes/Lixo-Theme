@@ -17,6 +17,10 @@ header {
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
   box-shadow: $box-shadow;
+
+  // Animations
+  transition-timing-function: ease;
+  transition: 0.2s;
 }
 
 #status-text {
@@ -58,7 +62,6 @@ header {
   padding-right: 15px;
   z-index: 3;
   position: absolute;
-
 
   .social-list li {
     display: inline;
