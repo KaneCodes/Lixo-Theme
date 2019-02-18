@@ -9,12 +9,16 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/fakeLoader.css">
   <title>Lixo Theme</title>
 </head>
 <body>
+  <!-- Fake Loader -->
+  <div id="fakeLoader"></div>
+
   <header>
     <!-- Menu Button -->
-    <div class="menu-btn animated bounceInDown">
+    <div class="menu-btn animated bounceInDown delay-2s">
       <div class="btn-line"></div>
       <div class="btn-line"></div>
       <div class="btn-line"></div>
@@ -23,7 +27,7 @@
     <!-- Menu Overlay -->
     <div class="menu-overlay hide">
       <div class="menu-nav">
-        <ul class="animated bounceInDown">
+        <ul class="animated bounceInDown delay-2s">
           <li><a href="#">About Me</a></li>
           <li><a href="#">Latest Work</a></li>
           <li><a href="#">Skills</a></li>
@@ -41,12 +45,12 @@
     </div>
 
     <!-- Availability Status -->
-    <div class="status-bar animated fadeInRight">
+    <div class="status-bar animated fadeInRight delay-2s">
       <p id="status-text">Employment Status: <span class="green">Available</span></p>
     </div>
 
     <!-- Social Links -->
-    <div class="social-links animated fadeInRight">
+    <div class="social-links animated fadeInRight delay-2s">
       <ul class="social-list">
         <li><a href="#"><i class="fab fa-github social"></i></a></li>
         <li><a href="#"><i class="fab fa-linkedin social"></i></a></li>
@@ -60,8 +64,8 @@
 
     <!-- Details Section -->
     <section id="details">
-      <h1 class="animated fadeIn">Kane Codes<span class="blue">.</span></h1>
-      <p class="animated fadeIn" id="description-text">Full Stack Developer |  ui + ux Designer | Travel Bum</p>
+      <h1 class="animated fadeIn delay-2s">Kane Codes<span class="blue">.</span></h1>
+      <p class="animated fadeIn delay-2s" id="description-text">Full Stack Developer |  ui + ux Designer | Travel Bum</p>
       <div class="button-container">
         <a href="mailto:kane.suckling@gmail.com"><button class="button animated fadeIn">Contact Me</button></a>
       </div>
@@ -185,7 +189,7 @@
       <div class="skills-container">
 
         <!-- Design -->
-        <div class="skill-set animated flipInY">
+        <div class="skill-set wow animated flipInY">
           <div class="designTitle-container">
             <!-- Heading -->
             <i id="design-icon" class="fas fa-paint-brush"></i>
@@ -207,7 +211,7 @@
         </div>
 
         <!-- Development -->
-        <div class="skill-set animated flipInY">
+        <div class="skill-set wow flipInY delay-1s">
           <!-- Heading -->
           <div class="devTitle-container">
             <i id="dev-icon"class="fas fa-code"></i>
@@ -245,9 +249,32 @@
       </div>
     </div>
   </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="js/fakeLoader.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script type="text/javascript">
+
+    $("#fakeLoader").fakeLoader({
+
+    timeToHide:1900, //Time in milliseconds for fakeLoader disappear
+
+    zIndex:"999",//Default zIndex
+
+    spinner:"spinner3",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
+
+    bgColor:"#4EA9F5", //Hex, RGB or RGBA colors
+
+    });
+
+</script>
+
+<script>new WOW().init();</script>
+
+
 </body>
-
-<!-- Scripts -->
-<script src="js/main.js"></script>
-
 </html>
