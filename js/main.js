@@ -1,3 +1,4 @@
+init();
 // DOM Elements
 const menuOverlay = document.querySelector('.menu-overlay');
 const menuBtn = document.querySelector('.menu-btn');
@@ -35,3 +36,14 @@ function colorChange() {
     }
   });
 }
+
+// Initialize Plugins
+ function init() {
+   $('#fakeLoader').fakeLoader({
+     timeToHide: 1900,
+     zIndex: '9999',
+     spinner: 'spinner3',
+     bgColor: 'white'
+   });
+   new WOW().init();
+ }

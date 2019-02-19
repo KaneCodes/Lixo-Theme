@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Meta Data -->
+  <!-- Meta -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Links -->
+  <!-- CSS -->
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="css/fakeLoader.css">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <title>Lixo Theme</title>
 </head>
 <body>
-  <!-- Fake Loader -->
+
   <div id="fakeLoader"></div>
 
+  <!-- START Header -->
   <header>
     <!-- Menu Button -->
     <div class="menu-btn animated bounceInDown delay-2s">
@@ -59,7 +61,9 @@
       </ul>
     </div>
   </header>
+  <!-- END Header -->
 
+  <!-- START OF MAIN PAGE CONTENT -->
   <main>
 
     <!-- Details Section -->
@@ -98,13 +102,13 @@
                   <p class="techTag-text">PHP</p>
                 </div>
 
-              </div> <!-- Tech Tag End -->
+              </div>
 
               <!-- Source Code Link -->
               <div class="code-container">
                 <a href="#"><i class="fas fa-code code"></i> View Code</a>
               </div>
-          </div> <!-- Project End -->
+          </div>
 
           <!-- Project Card -->
           <div class="project wow fadeIn">
@@ -125,14 +129,14 @@
                   <p class="techTag-text">PHP</p>
                 </div>
 
-              </div> <!-- Tech Tag End -->
+              </div>
 
               <!-- Source Code Link -->
               <div class="code-container">
                 <a href="#"><i class="fas fa-code code"></i> View Code</a>
               </div>
 
-          </div> <!-- Project End -->
+          </div>
 
           <!-- Project Card -->
           <div class="project wow fadeInRight">
@@ -153,16 +157,17 @@
                   <p class="techTag-text">PHP</p>
                 </div>
 
-              </div> <!-- Tech Tag End -->
+              </div>
 
               <!-- Source Code Link -->
               <div class="code-container">
                 <a href="#"><i class="fas fa-code code"></i> View Code</a>
               </div>
-          </div> <!-- Project End -->
-      </div> <!-- Projects End -->
+          </div>
+      </div>
 
     </section>
+    <!-- END Projects Section -->
 
     <!-- About Me -->
     <section id="about-me">
@@ -179,6 +184,7 @@
         </div>
       </div>
     </section>
+    <!-- END About Section -->
 
     <!-- Skills Section -->
     <section id="skills">
@@ -195,7 +201,7 @@
             <i id="design-icon" class="fas fa-paint-brush"></i>
             <h5 class="card-title">Design</h5>
           </div>
-          <!-- List -->
+          <!-- Lists -->
           <h5 class="list-title green">Design Skills </h5>
           <ul class="skill-list">
             <li>UI/UX Design</li>
@@ -227,7 +233,7 @@
             <li>Javascript</li>
             <li>Vue.js</li>
           </ul>
-          <!-- List -->
+          <!-- Lists -->
           <h5 class="list-title green">Backend</h5>
           <ul class="skill-list">
             <li>REST / MySQL</li>
@@ -238,9 +244,11 @@
         </div>
       </div>
     </section>
+    <!-- END Skills Section -->
   </main>
+  <!-- END MAIN PAGE CONTENT -->
 
-  <!-- footer -->
+  <!-- Footer -->
   <footer>
     <div class="footer-container">
       <div class="footer-text">
@@ -249,6 +257,7 @@
       </div>
     </div>
   </footer>
+  <!-- END Footer -->
 
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -256,25 +265,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script src="js/fakeLoader.min.js"></script>
   <script src="js/main.js"></script>
-
-  <script type="text/javascript">
-
-    $("#fakeLoader").fakeLoader({
-
-    timeToHide:1900, //Time in milliseconds for fakeLoader disappear
-
-    zIndex:"999",//Default zIndex
-
-    spinner:"spinner3",//Options: 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7'
-
-    bgColor:"white", //Hex, RGB or RGBA colors
-
-    });
-
-</script>
-
-<script>new WOW().init();</script>
-
-
 </body>
 </html>
