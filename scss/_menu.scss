@@ -4,8 +4,21 @@
   z-index: 3;
   left: 35px;
   top: 35px;
+  padding: 10px;
   cursor: pointer;
+  display: flex;
   // @include easeOut;
+
+  #menu-text {
+    color: white;
+    font-size: 1rem;
+    font-family: $primary-font;
+    letter-spacing: 1px;
+  }
+
+  .btn-lines {
+    margin: 0 10px 0 10px;
+  }
 
   .btn-line {
     width: 28px;
@@ -38,4 +51,8 @@
     }
   }
 
+}
+
+#menu-text:hover {
+  font-weight: bold;
 }

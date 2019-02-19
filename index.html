@@ -21,18 +21,22 @@
   <header>
     <!-- Menu Button -->
     <div class="menu-btn animated bounceInDown delay-2s">
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
-      <div class="btn-line"></div>
+
+      <div class="btn-lines">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+      <h2 id="menu-text">MENU</h2>
     </div>
 
     <!-- Menu Overlay -->
     <div class="menu-overlay hide">
       <div class="menu-nav">
         <ul class="animated bounceInDown">
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Latest Work</a></li>
-          <li><a href="#">Skills</a></li>
+          <li><a href="#about-me" onclick="hide()">About Me</a></li>
+          <li><a href="#projects"  onclick="hide()">Latest Work</a></li>
+          <li><a href="#skills"  onclick="hide()">Skills</a></li>
           <li><a href="mailto:kane.suckling@gmail.com">Contact Me</a></li>
           <li><a href="#">CV</a></li>
         </ul>
@@ -262,8 +266,9 @@
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script src="js/fakeLoader.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="js/smoothScroll.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

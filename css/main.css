@@ -89,6 +89,8 @@ img {
     display: none; }
   .social-list {
     display: none; }
+  #menu-text {
+    display: none; }
   .projects {
     flex-direction: column;
     align-items: center; }
@@ -104,7 +106,16 @@ img {
   z-index: 3;
   left: 35px;
   top: 35px;
-  cursor: pointer; }
+  padding: 10px;
+  cursor: pointer;
+  display: flex; }
+  .menu-btn #menu-text {
+    color: white;
+    font-size: 1rem;
+    font-family: "Avenir", Helvetica, sans-serif;
+    letter-spacing: 1px; }
+  .menu-btn .btn-lines {
+    margin: 0 10px 0 10px; }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
@@ -119,6 +130,9 @@ img {
       opacity: 0; }
     .menu-btn.show .btn-line:nth-child(3) {
       transform: rotate(-45deg) translate(7px, -6px); }
+
+#menu-text:hover {
+  font-weight: bold; }
 
 .menu-overlay {
   height: 180rem;
@@ -243,18 +257,21 @@ header {
   padding: 0;
   background-color: #FAF8F7;
   position: relative;
-  padding-bottom: 10rem; }
+  padding-bottom: 10rem;
+  outline: none; }
 
 .projects-container {
   width: 80%;
   height: 100%;
   margin: auto;
-  padding-top: 2.5rem; }
+  padding-top: 2.5rem;
+  outline: none; }
 
 .projects {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  outline: none; }
 
 .project {
   margin-top: 2rem;
@@ -298,15 +315,18 @@ header {
 #about-me {
   width: 100%;
   height: 100%;
-  padding-bottom: 10rem; }
+  padding-bottom: 10rem;
+  outline: none; }
 
 .about {
   width: 80%;
   margin: auto;
-  margin-top: 3rem; }
+  margin-top: 3rem;
+  outline: none; }
 
 .about-container {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  outline: none; }
 
 .about-text {
   margin-top: 1.5rem;
@@ -318,12 +338,14 @@ header {
   margin: 0;
   padding: 0;
   background-color: #FAF8F7;
-  padding-bottom: 10rem; }
+  padding-bottom: 10rem;
+  outline: none; }
 
 .skills {
   width: 80%;
   margin: auto;
-  padding-top: 3rem; }
+  padding-top: 3rem;
+  outline: none; }
 
 .skills-container {
   width: 80%;
