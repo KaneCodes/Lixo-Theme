@@ -43,6 +43,11 @@
   box-shadow: $box-shadow;
 }
 
+.project-img:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
 .techTag-container {
   width: 100%;
   display: flex;

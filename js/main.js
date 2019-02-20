@@ -4,6 +4,7 @@ const menuOverlay = document.querySelector('.menu-overlay');
 const menuBtn = document.querySelector('.menu-btn');
 const menuLine = document.querySelectorAll('.btn-line');
 const menuLines = document.querySelector('.btn-lines');
+const menuText = document.querySelector('#menu-text');
 
 // Default Menu State
 let showMenu = false;
@@ -37,10 +38,12 @@ function displayMenu() {
   if(!showMenu) {
     menuOverlay.classList.add('show');
     menuBtn.classList.add('show');
+    menuText.style.display = 'none';
     showMenu = true;
   } else {
     menuOverlay.classList.remove('show');
     menuBtn.classList.remove('show');
+    menuText.style.display = 'block';
     showMenu = false;
   }
 }

@@ -5,41 +5,20 @@
 $primary-font: 'Avenir', Helvetica, sans-serif;
 
 // Gradient Colors
-$top-gradient: $lightBlue;
-$bottom-gradient: $blue;
+$top-gradient: #43E6FF;
+$bottom-gradient: #78C1FE;
 
-// Color Pallet
-$grey: #3B3B3B;
-$green: #28FF00;
+// Active color Pallet
 $blue: #4EA9F5;
-$red: #FF1D61;
 $lightBlue: #43E6FF;
+$green: #28FF00;
+$lightGreen: #5CFF81;
+$red: #FF1D61;
 $purple: #EB22EE;
+$lightPurple: #F275F7;
 $yellow: #FFF45C;
 $dull: #FAF8F7;
-
-// Color Classes
-.green {
-  color: $green;
-}
-
-.blue {
-  color: $blue;
-}
-
-.red {
-  color: $red;
-}
-
-.purple {
-  color: $purple;
-}
-
-.yellow {
-  color: $yellow;
-}
-
-
+$grey: #3B3B3B;
 
 // Shadows
 $box-shadow: 4px 3px 19px -6px rgba(0,0,0,0.68);
