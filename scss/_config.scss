@@ -1,8 +1,12 @@
-// Lixo Theme // 
+// Lixo Theme //
 // Theme Configuration Settings //
 
 // Font Stack
 $primary-font: 'Avenir', Helvetica, sans-serif;
+
+// Gradient Colors
+$top-gradient: $lightBlue;
+$bottom-gradient: $blue;
 
 // Color Pallet
 $grey: #3B3B3B;
@@ -11,6 +15,7 @@ $blue: #4EA9F5;
 $red: #FF1D61;
 $lightBlue: #43E6FF;
 $purple: #EB22EE;
+$yellow: #FFF45C;
 $dull: #FAF8F7;
 
 // Color Classes
@@ -29,6 +34,12 @@ $dull: #FAF8F7;
 .purple {
   color: $purple;
 }
+
+.yellow {
+  color: $yellow;
+}
+
+
 
 // Shadows
 $box-shadow: 4px 3px 19px -6px rgba(0,0,0,0.68);

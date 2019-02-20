@@ -2,7 +2,7 @@
 header {
   height: 350px;
   width: 100%;
-  background-image: linear-gradient(#43E6FF, #78C1FE);
+  background-image: linear-gradient($top-gradient, $bottom-gradient);
   display: flex;
   justify-content: flex-end;
 }
