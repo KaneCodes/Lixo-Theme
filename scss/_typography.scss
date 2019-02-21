@@ -18,9 +18,10 @@ h3 {
   color: white;
   box-shadow: 0 2px 6px rgba(0,0,0,0.16), 0 2px 6px rgba(0,0,0,0.23);
   font-family: $primary-font;
-  width: 18rem;
+  width: 18.5rem;
   font-size: 1.4rem;
   letter-spacing: 1px;
+  padding-left: 5px;
 }
 
 h4 {
@@ -34,7 +35,6 @@ h5 {
   font-family: $primary-font;
   color: $grey;
   font-size: 2.2rem;
-  margin-bottom: 2rem;
 }
 
 // Standard Text

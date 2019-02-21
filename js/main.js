@@ -5,6 +5,7 @@ const menuBtn = document.querySelector('.menu-btn');
 const menuLine = document.querySelectorAll('.btn-line');
 const menuLines = document.querySelector('.btn-lines');
 const menuText = document.querySelector('#menu-text');
+const header = document.querySelector('header');
 
 // Default Menu State
 let showMenu = false;
