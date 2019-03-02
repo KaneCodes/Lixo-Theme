@@ -184,8 +184,7 @@ header {
   width: 85%;
   height: 300px;
   margin: auto;
-  border-radius: 100%;
-  box-shadow: 4px 3px 19px -6px rgba(0, 0, 0, 0.68); }
+  border-radius: 100%; }
 
 .social-links {
   margin-top: 18.5rem;
