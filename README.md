@@ -8,9 +8,9 @@
     <br />
     <a href="https://kanecodes.com">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/KaneCodes/Lixo-Theme/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/KaneCodes/Lixo-Theme/issues">Request Feature</a>
   </p>
 
 ## Description
