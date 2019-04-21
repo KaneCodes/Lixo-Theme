@@ -1,4 +1,6 @@
-init();
+// Initialize Plugins
+new WOW().init();
+
 // DOM Elements
 const menuOverlay = document.querySelector('.menu-overlay');
 const menuBtn = document.querySelector('.menu-btn');
@@ -20,19 +22,6 @@ menuBtn.addEventListener('click', function(){
 menuLines.onmouseover = function(){
   animate();
 }
-
-// Functions //
-
-// Initialize Plugins
- function init() {
-   $('#fakeLoader').fakeLoader({
-     timeToHide: 1900,
-     zIndex: '9999',
-     spinner: 'spinner3',
-     bgColor: 'white'
-   });
-   new WOW().init();
- }
 
 // Display Navigation Menu
 function displayMenu() {

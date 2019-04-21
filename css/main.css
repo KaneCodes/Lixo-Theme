@@ -407,14 +407,16 @@ footer {
   margin: 0; }
 
 .footer-container {
-  width: 15%;
+  width: 100%;
   min-width: 200px;
   height: 100%;
   padding-top: 150px;
   margin: auto; }
 
 .footer-text {
-  text-align: center; }
+  text-align: center;
+  margin: auto;
+  width: 200px; }
 
 #underline {
   font-family: "Avenir", Helvetica, sans-serif;

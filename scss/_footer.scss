@@ -7,7 +7,7 @@ footer {
 }
 
 .footer-container {
-  width: 15%;
+  width: 100%;
   min-width: 200px;
   height: 100%;
   padding-top: 150px;
@@ -16,6 +16,8 @@ footer {
 
 .footer-text {
   text-align: center;
+  margin: auto;
+  width: 200px;
 }
 
 #underline {
