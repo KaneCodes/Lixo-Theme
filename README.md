@@ -13,6 +13,6 @@
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 
-# Description
+## Description
 A plug and play minimalistic theme for professional portfolio's. Designed from the start for ease of use and to be fully customizable. 
 
